@@ -1,0 +1,49 @@
+---
+title: "Notes"
+author: "Phillip Rivera"
+format:
+  html:
+    toc: true
+editor: source
+---
+
+## There are 3 componetns to a Quarto doucment
+
+1. The YML header:
+    * Another markup language: essentially allows you to alter the aspects of the document
+    * defines TOC, etc
+  
+2. Prose aka text
+    * we can make text **bold**
+    * we can make text *italic*
+    * and a variety of other aspects
+    
+3. Code Chunks: this where we code.
+
+## Resources
+
+1. R-bloggers.com
+2. rweekly.org
+3. rladies.org
+
+## Quarto
+
+Quarto enables you to weave together content and executable code into a finished document. To learn more about Quarto see <https://quarto.org>.
+
+## Running Code
+
+When you click the **Render** button a document will be generated that includes both content and the output of embedded code. You can embed code like this:
+
+```{r}
+#| echo: false
+1 + 1
+```
+
+You can add options to executable code like this
+
+```{r}
+#| echo: false
+2 * 2
+```
+
+The `echo: false` option disables the printing of code (only output is displayed).
