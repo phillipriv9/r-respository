@@ -1,0 +1,39 @@
+---
+title: "RHomework"
+format: html
+editor: source
+---
+
+## Notes
+
+Link to post: https://www.r-bloggers.com/2024/01/whatsr-an-r-package-for-processing-exported-whatsapp-chat-logs/ 
+
+Post talks about a package that can change WhatsApp messages into data frames that can be analyzed in R. Likely has applications in communications studies, psychology and other fields involving social science
+
+Lets you create artificial chat logs
+Creates data for variables such time message was sent, Sender, message content, a simplified version, URLs within the messages, attached filenames, number of smilies in the body of the message, and the order of appearance to name a few.
+
+Can summarize all chat data at once with command summarize_chat(data,exclude_sm = TRUE)
+
+The package is limited due to the way WhatsApp chats are exported and how it differ depending on the OS and even depending on the time format, etc.
+
+## Graph
+
+https://r-graph-gallery.com/131-pie-plot-with-r.html
+
+```{r}
+# Create Data
+
+Percentages <- c(24,15,27,18,16)
+
+#Make a standard pie chart (I am turing it into an Object. I like doing this because it allows me to progressively modify the figure in stages, and makes it easier to undo something in my experience)
+
+p_chart <- pie(Percentages)
+
+#Adding labels and color
+p_chart <- pie(Percentages, labels = c("Red","Blue", "Green", "White", "Black"), col = c("red","blue","green","white","black"))
+
+
+
+```
+
