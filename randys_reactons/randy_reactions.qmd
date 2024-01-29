@@ -1,0 +1,14 @@
+---
+title: "Randy's Reactions"
+format: html
+editor: Source
+---
+
+## Homework, january 29, 2024
+
+Thanks Phillip for your blog notes and chart! A few notes:
+
+* Tease alert-I thought you were going to show me how you used the WhatsApp package!  Not a requirement at all, but I like the sound of the package and hope you will explore sometime and share with me.  What you noted reminded me of 'sentiment analysis' and of many packages that analyze text, e.g., X (formerly Twitter) posts.
+* YES on creating objects from charts!  
+* Next, add a title and a subtitle to your chart in base R.  Or skip, as we'll move to ggplot soon.
+* Also, challenge yourself in the Quarto by adding levels of headers, bullets, bold and italics.  Go freaking crazy man!
