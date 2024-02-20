@@ -13,7 +13,8 @@
 install.packages('pacman')
 library(pacman)
 
-p_load(chorddiag, htmlwidgets, tidyverse)
+p_load(htmlwidgets, tidyverse)
+p_load(chorddiag)
 
 
 
@@ -23,8 +24,7 @@ chord_df <- read_csv("chord_demo/bps2evt_chord.csv")
 #view(histFireGVchord)
 
 #convert data to matrix
-matrix_df <- as.matrix(as_adjacency_matrix(as_tbl_graph(chord_df),
-                                           attr = "ACRES"))
+matrix_df <- as.matrix(as_adjacency_matrix(as_tbl_graph(chord_df), attr = "ACRES"))
 
 #clean up matrix to remove empty rows.  Specifics will change depending on inputs.
 matrix_df <- matrix_df[-c(8:16), -c(1:7)]
