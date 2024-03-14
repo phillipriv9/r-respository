@@ -15,6 +15,10 @@ library(pacman)
 
 p_load(htmlwidgets, tidyverse)
 p_load(chorddiag)
+library(Matrix)
+library(readr)
+library(tidygraph)
+library(igraph)
 
 
 
